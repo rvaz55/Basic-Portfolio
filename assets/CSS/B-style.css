@@ -1,6 +1,6 @@
 
 body {
-    margin: 0 0 0 50px;
+    margin: auto;
     background-color: #d3d3d3;
   }
 
@@ -26,6 +26,7 @@ h1.headerFonts{
     background-color: #4aaaa5;
     text-align: center;
     margin-left: 10%;
+    margin-top: 0;
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
 
@@ -35,7 +36,7 @@ h1.headerFonts{
 img#orchidSelfie {
     float: left;
     text-align: center;
-    padding: 20px 5px 20px 5px;
+    padding: 45px 5px 20px 5px;
 }
 
 /*The code below styles the white navigation bar section */
@@ -44,7 +45,7 @@ img#orchidSelfie {
     overflow: visible;
     text-align: right;
     padding: 30px 20px 20px 40px;
-    width:100%;
+    width:95%;
     height: 20px;
 }
 
@@ -83,7 +84,7 @@ h2.subPage{
 }
 
 div#aboutPara{
-    padding: 30px 40px 30px 40px;
+    padding: 30px 40px 50px 40px;
     margin-left:100px;
     margin-right:100px;
     width: 900px;
@@ -95,7 +96,7 @@ div#aboutPara{
     
 }
 
-div#aboutContent {
+div.aboutContent {
     display: flex;
     padding: 20px;
     flex-direction: column;
