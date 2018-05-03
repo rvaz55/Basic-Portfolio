@@ -1,8 +1,9 @@
 
 body {
     margin: auto;
-    background-color: #d3d3d3;
+    background-image: url(../../intersection/intersection.png);
   }
+
 
 
 header {
@@ -23,7 +24,7 @@ h1.headerFonts{
     padding: 10px 10px 10px 10px;
     width: 200px;
     height:50px;
-    background-color: #4aaaa5;
+    background-color: rgb(105,145,170);
     text-align: center;
     margin-left: 10%;
     margin-top: 0;
@@ -71,7 +72,7 @@ div.topNav> #portfolioNavButton {
 
 
 h2.subPage{
-    color: #4aaaa5;
+    color: rgb(105,145,170);
     width: auto;
     background-color: white;
     text-align: auto;
@@ -84,11 +85,11 @@ h2.subPage{
 }
 
 div#aboutPara{
-    padding: 30px 40px 50px 40px;
+    padding: 30px 40px 30px 40px;
     margin-left:100px;
     margin-right:100px;
-    width: 900px;
-    height:300px;
+    width: auto;
+    height:auto;
     background-color: #ffffff;
     border: solid #909090 1px ;
     text-align: left;
@@ -120,7 +121,7 @@ footer.footer {
     justify-content: center;
     padding: 10 100 0 100;
     position: absolute;
-    border-top: solid #4aaaa5 6px;
+    border-top: solid rgb(105,145,170) 6px;
     line-height: 450%;
     align-self: flex-end;
 }

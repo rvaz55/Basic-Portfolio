@@ -1,7 +1,7 @@
 
 body {
     margin: auto;
-    background-color: #d3d3d3;
+    background-image: url(../../intersection/intersection.png);
   }
 
 
@@ -23,7 +23,7 @@ h1.headerFonts{
     padding: 10px 10px 10px 10px;
     width: 200px;
     height:50px;
-    background-color: #4aaaa5;
+    background-color: rgb(105,145,170);
     text-align: center;
     margin-left: 10%;
     margin-top: 0;
@@ -66,7 +66,7 @@ div.topNav> #portfolioNavButton {
 
 
 h2.subPage{
-    color: #4aaaa5;
+    color: rgb(105,145,170);
     width: auto;
     background-color: white;
     text-align: auto;
@@ -79,11 +79,11 @@ h2.subPage{
 }
 
 div.subPageContent{
-    padding: 30px 40px 50px 40px;
+    padding: 30px 40px 30px 40px;
     margin-left:100px;
     margin-right:100px;
-    width: 900px;
-    height:300px;
+    width: auto;
+    height:auto;
     background-color: #ffffff;
     border: solid #909090 1px ;
     text-align: left;
@@ -91,11 +91,35 @@ div.subPageContent{
     
 }
 
-div#aboutContent {
+div#aboutContactContent {
     display: flex;
     padding: 20px;
-    flex-direction: column;
     
+    
+}
+
+input.visitorInfoText {
+	width:80%;
+	height:20px;
+	border-style: solid 1px
+
+}
+
+input#visitorMessage {
+	width: 80%;
+	height:100px;
+	border-style: solid 1px;
+
+}
+
+button.contactSubmitButton {
+    width:120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(105,145,170);
+    font-size: 16px;
+
+
 }
     
 
@@ -110,7 +134,7 @@ footer.footer {
     justify-content: center;
     padding: 10 100 0 100;
     position: absolute;
-    border-top: solid #4aaaa5 6px;
+    border-top: solid rgb(105,145,170) 6px;
     line-height: 450%;
     align-self: flex-end;
 }
