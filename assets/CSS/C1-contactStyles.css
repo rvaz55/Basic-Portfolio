@@ -132,9 +132,8 @@ footer.footer {
     text-align: center;
 
     justify-content: center;
-    padding: 10 100 0 100;
-    position: absolute;
+    
     border-top: solid rgb(105,145,170) 6px;
     line-height: 450%;
-    align-self: flex-end;
+    
 }
